@@ -1,0 +1,112 @@
+/* Universal Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh; 
+}
+
+/* Container and Title */
+#container.form-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 500px; 
+}
+
+/* Header with Logo and Title */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo-container {
+    margin-right: 10px;
+}
+
+.logo-image {
+    max-width: 100px;
+    height: auto;
+}
+
+#form-title.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Form Groups */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Input Fields */
+.input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+/* Select Field */
+#sex {
+    appearance: none;
+}
+
+/* Button Styles */
+#button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.submit-button,
+.cancel-button {
+    width: 48%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #218838;
+    transform: scale(1.1); 
+}
+
+.cancel-button {
+    background-color: #dc3545;
+}
+
+.cancel-button:hover {
+    background-color: #c82333;
+    transform: scale(1.1); 
+}
+
+/* Focused Input Fields */
+.input-field:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 5px rgba(128, 189, 255, 0.5); 
+    outline: none;
+}
