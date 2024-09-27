@@ -1,11 +1,9 @@
-/* Universal Styles */
-* {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/* Body Styles */
+
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(135deg, #6e8efb, #a777e3);
@@ -23,8 +21,7 @@ body {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     width: 500px; 
 }
-
-/* Header with Logo and Title */
+
 .header-container {
     display: flex;
     align-items: center;
@@ -45,8 +42,7 @@ body {
     font-size: 24px;
     font-weight: bold;
 }
-
-/* Form Groups */
+
 .form-group {
     margin-bottom: 15px;
 }
@@ -56,8 +52,7 @@ label {
     margin-bottom: 5px;
     font-weight: bold;
 }
-
-/* Input Fields */
+
 .input-field {
     width: 100%;
     padding: 10px;
@@ -66,7 +61,7 @@ label {
     transition: border-color 0.3s ease, box-shadow 0.3s ease; 
 }
 
-/* Select Field */
+
 #sex {
     appearance: none;
 }
@@ -103,8 +98,7 @@ label {
     background-color: #c82333;
     transform: scale(1.1); 
 }
-
-/* Focused Input Fields */
+
 .input-field:focus {
     border-color: #80bdff;
     box-shadow: 0 0 5px rgba(128, 189, 255, 0.5); 
